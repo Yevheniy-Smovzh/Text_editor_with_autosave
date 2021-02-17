@@ -1,0 +1,11 @@
+General idea
+We will have an HTML page with a block that looks like a sheet of paper. It will have content editable enabled, that is, you can write something inside this block. After each keystroke, the contents of this block will be written to the internal memory of the browser.
+
+The second part of the algorithm is when the page is loaded, take from memory the text that was there before and show it in our text area. You can update the page as you like and even turn off the computer - the text will still remain in memory.
+
+Briefly, the algorithm will look like this:
+
+We get from memory the text that was there
+We bring it to our area for editing
+Constantly looking to see if any key is pressed
+If pressed, we immediately write the changes to memory.
